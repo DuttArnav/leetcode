@@ -1,0 +1,127 @@
+# Here ARE theory of 10 c++ questions 
+
+1. What is Object Oriented Programming (OOP) in C++?
+Explanation:
+OOP is a programming approach where programs are built using objects that represent real-world entities.
+Main principles:
+Encapsulation – data protection
+Inheritance – reuse of code
+Polymorphism – same function, different behavior
+Abstraction – hide complexity
+Why useful?
+Makes code modular, reusable, and easier to maintain.
+
+2. What is the difference between struct and class?
+Explanation:
+Both are used to create user-defined types.
+Feature	struct	class
+Default access	public	private
+Usage	simple data objects	complex OOP designs
+Functionally, they are almost the same.
+
+3. What is a constructor?
+Explanation:
+A constructor is a special function that runs automatically when an object is created.
+Purpose:
+Initialize variables
+Allocate resources
+Types:
+Default constructor
+Parameterized constructor
+Copy constructor
+
+4. What is a destructor?
+Explanation:
+A destructor runs automatically when an object goes out of scope.
+Purpose:
+Free memory
+Release files, locks, etc.
+It has the same name as the class but starts with ~.
+
+5. What is inheritance and why is it used?
+Explanation:
+Inheritance allows a new class to use features of an existing class.
+Benefits:
+Code reuse
+Easy maintenance
+Logical hierarchy
+Example:
+Car inherits from Vehicle
+
+6. What is polymorphism?
+Explanation:
+Polymorphism means one name, many forms.
+Types:
+Compile-time → function overloading
+Run-time → function overriding using virtual
+Why important?
+Allows flexible and extensible code.
+
+7. What is encapsulation?
+Explanation:
+Encapsulation binds data and methods together and restricts access.
+How achieved?
+Using private, protected, public
+Benefit:
+Prevents accidental data modification.
+
+8. What is abstraction?
+Explanation:
+Abstraction hides implementation details and shows only essential features.
+How achieved?
+Abstract classes
+Pure virtual functions
+Example:
+User knows how to drive, not how engine works.
+
+9. What are pointers?
+Explanation:
+Pointers store the address of another variable.
+Why used?
+Dynamic memory allocation
+Efficient parameter passing
+Data structures like linked lists
+
+10. What is dynamic memory allocation?
+Explanation:
+Memory allocated at runtime using:
+new → allocate
+delete → deallocate
+Useful when size is unknown at compile time.
+
+11. What is the difference between new/delete and malloc/free?
+Explanation:
+new/delete	malloc/free
+C++ operators	C functions
+Calls constructor	No constructor
+Type safe	Not type safe
+
+12. What is STL?
+Explanation:
+STL is a collection of ready-made data structures and algorithms.
+Components:
+Containers (vector, map)
+Algorithms (sort, search)
+Iterators
+Advantage:
+Saves time and increases efficiency.
+
+13. What is a virtual function?
+Explanation:
+A virtual function ensures the correct function is called at runtime when using base class pointers.
+Used for:
+Runtime polymorphism.
+
+14. What is the difference between == and =?
+Explanation:
+= assigns value
+== compares values
+Very common interview trick question.
+
+15. What is const in C++?
+Explanation:
+const makes a variable or object read-only.
+Usage:
+Prevent modification
+Improve code safety
+Enable compiler optimizations
